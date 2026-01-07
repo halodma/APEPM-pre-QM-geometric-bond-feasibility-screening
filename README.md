@@ -23,7 +23,7 @@ Use as an interpretable constraint or weighting layer inside custom energy model
 
 Real-time generation of orbital-overlap visualizations (e.g., Au···Au metallophilic contacts, U=O actinyl bonds, metal–oxo motifs) without requiring QM density cube files
 
-$ Workflow Example
+# Workflow Example
 
 Candidate Geometry → APEPM Screening → QM / DFT / ML on admissible bonds
 
