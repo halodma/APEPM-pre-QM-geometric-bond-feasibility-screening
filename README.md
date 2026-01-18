@@ -3,13 +3,7 @@ This code implements the APEPM model found on chemrxiv, and is intended to ideal
 
 
 # Please Note:
-This model and paper relies on AREECM notation, the code already comes with the digital AREECM dictionary, but for the "+1" rule seen here that applies to AREECM notation, for a better understanding of AREECM, the AREECM paper can be found here on chemrxiv: https://doi.org/10.26434/chemrxiv-2025-jq84z-v3
-
-
-# Industrial Uses/Applications
-
-APEPM offers a wavefunction-free, analytic evaluation of whether two atomic electron volumes can share non-zero overlap as defined in the ChemRxiv model paper https://doi.org/10.26434/chemrxiv-2026-9swcr
-In automated discovery pipelines, this enables early rejection or annotation of structures that are geometrically incapable of bonding before QM, DFT, or ML potentials are executed.
+This model and paper relies on AREECM notation, the code already comes with the digital AREECM dictionary, but for the "+1" rule seen here that applies to AREECM notation, for a better understanding of AREECM, the AREECM paper can be found here on chemrxiv: https://doi.org/10.26434/chemrxiv-2025-jq84z-v3, and additional educational resources can be found on youtube: https://youtu.be/Zj-MEX8jEus (How to read AREECM notation) and: https://youtu.be/6NM0zsfH-Jg (How to convert Integer electron notation to AREECM Notation (Step-by-Step))
 
 # Capabilities
 
@@ -22,10 +16,6 @@ Closed-form, non-iterative calculations with no SCF or convergence tuning
 Use as an interpretable constraint or weighting layer inside custom energy models
 
 Real-time generation of orbital-overlap visualizations (e.g., Au···Au metallophilic contacts, U=O actinyl bonds, metal–oxo motifs) without requiring QM density cube files
-
-# Workflow Example
-
-Candidate Geometry → APEPM Screening → QM / DFT / ML on admissible bonds
 
 # Summary
 
